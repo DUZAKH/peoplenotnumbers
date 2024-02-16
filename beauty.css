@@ -4,7 +4,7 @@ body {
     font-size: 25px;
     font-family: 'Source Code Pro', monospace;
     margin: 0;
-    padding: 0;
+    padding: 20px; /* Add padding to create margin */
     display: flex;
     justify-content: center; /* Center content horizontally */
     align-items: center; /* Center content vertically */
@@ -19,14 +19,14 @@ h2 {
     text-align: center; /* Center content horizontally within container */
 }
 
-h1{
+h1 {
     text-align: center;
     color: beige;
 }
 
-h3{
+h3 {
     text-align: center;
-    color:#1b1c2b;
+    color: #1b1c2b;
 }
 
 img {
