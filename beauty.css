@@ -4,39 +4,40 @@ body {
     font-size: 25px;
     font-family: 'Source Code Pro', monospace;
     margin: 0;
-    padding: 20px; /* Add padding to create margin */
+    padding: 20px;
     display: flex;
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    flex-direction: column; /* Stack content vertically */
-}
-
-h2 {
-    text-align: center; /* Center Maral's name */
-}
-
-.center-content {
-    text-align: center; /* Center content horizontally within container */
-}
-
-h1 {
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     color: beige;
 }
 
-h3 {
+h1, p {
     text-align: center;
-    color: #1b1c2b;
+    margin: 10px 0;
 }
 
-img {
-    margin-top: 20px;
-}
-
-.button-container {
+.gallery {
     display: flex;
-    justify-content: center; /* Center button horizontally */
-    margin-top: 20px; /* Adjust margin as needed */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery a {
+    margin: 10px;
+    text-decoration: none;
+}
+
+.gallery img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
 }
 
 .button {
@@ -52,3 +53,4 @@ img {
     cursor: pointer;
     border-radius: 12px;
 }
+
