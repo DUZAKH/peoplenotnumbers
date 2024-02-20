@@ -18,8 +18,9 @@ h1, p {
 }
 
 .poster {
-    width: 600px !important; 
+    max-width: 100%;
     height: auto;
+    max-height: 500px; /* Adjust height as needed */
 }
 
 
